@@ -13,27 +13,36 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 # ⚠️ MUDANÇA 1: JAQUELINE EM PRIMEIRO (PRIORIDADE MÁXIMA) ⚠️
 CONTAS = [
 
-    #      quinta 20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+
+    #      quinta 19h00 GRUPO PREFERENCIAL -1003704171482
         {
-        "nome": "Paula",
-        "secret_name": "SESSION_PAULA",
-        "chat_id": -5054459568,  
-        "msg": "Paula x Carlos raio 3 cela 8"
+        "nome": "Dara",
+        "secret_name": "SESSION_DARA",
+        "chat_id": -5257725173,  
+        "msg": "Dara X lipe R6 C5 (Criança)"
         },
+
+    #      quinta 20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    #    {
+    #    "nome": "Paula",
+    #    "secret_name": "SESSION_PAULA",
+    #    "chat_id": -1002443109385,  
+    #    "msg": "Paula x Carlos raio 3 cela 8"
+    #    },
 
 
     #      quinta 20h00 GRUPO DA SENHA PREFERENCIAL P3 DE LAVINIA -1002530936713
-        {
-        "nome": "Mel",
-        "secret_name": "SESSION_MEL",
-        "chat_id": -5068575302,  
-        "msg": "Mel x Profeta R4 (criança)"
-        },
+     #   {
+     #   "nome": "Mel",
+     #   "secret_name": "SESSION_MEL",
+     #   "chat_id": -1002530936713,  
+     #   "msg": "Mel x Profeta R4 (criança)"
+     #   },
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 15
-MINUTO_ALVO = 35
+HORA_ALVO = 16
+MINUTO_ALVO = 50
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
