@@ -20,11 +20,20 @@ CONTAS = [
         "chat_id": -5054459568,  
         "msg": "Paula x Carlos raio 3 cela 8"
         },
+
+
+    #      quinta 20h00 GRUPO DA SENHA PREFERENCIAL P3 DE LAVINIA -1002530936713
+        {
+        "nome": "Mel",
+        "secret_name": "SESSION_MEL",
+        "chat_id": -5068575302,  
+        "msg": "Mel x Profeta R4 (criança)"
+        },
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 19
-MINUTO_ALVO = 57
+HORA_ALVO = 15
+MINUTO_ALVO = 35
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
