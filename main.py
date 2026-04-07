@@ -14,12 +14,12 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 CONTAS = [
 
 
-        #      20h30 SENHA NORMAL 🚨-1002704903786
+        #      20h30 SENHA PREFERENCIAL -1003154989490
         {
-            "nome": "Viviane", 
-            "secret_name": "SESSION_VIVIANE",
-            "chat_id": -1002704903786,
-            "msg": "Viviane x Cleber raio 2"
+            "nome": "Sara", 
+            "secret_name": "SESSION_SARA",
+            "chat_id": -5215567369,
+            "msg": "Sara esposa demorisval raio 1 cela 27 longa distância"
         },
 
 ]
