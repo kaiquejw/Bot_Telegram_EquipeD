@@ -15,30 +15,19 @@ CONTAS = [
 
 
 
-
-
-        #      20h30 SENHA NORMAL 🚨-1002704903786
-        {
-            "nome": "Anne", 
-            "secret_name": "SESSION_ANNE",
-            "chat_id": -1002704903786,
-            "msg": "Anny x JB R2"
-        },
-
-
                 #  20h45    SENHA PREF 🚨-1003049291964
-        #{
-        #    "nome": "Adrielli", 
-        #    "secret_name": "SESSION_ADRIELLI",
-        #    "chat_id": -5176706740,
-        #    "msg": "Adrielli x Carlos r1"
-        #},
+        {
+            "nome": "Adrielli", 
+            "secret_name": "SESSION_ADRIELLI",
+            "chat_id": -1003049291964,
+            "msg": "Adrielli x Carlos r1"
+        },
 
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 20
-MINUTO_ALVO = 30
+MINUTO_ALVO = 45
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
