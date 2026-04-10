@@ -15,35 +15,35 @@ CONTAS = [
 
 
 
-        #      GRUPO DA SENHA NORMAL- DOBRA P3 LAVINIA -1002717347777
+        #     19h00  GRUPO DA SENHA NORMAL- DOBRA P3 LAVINIA -1002717347777
         {
             "nome": "Thaiane", 
             "secret_name": "SESSION_THAIANE",
-            "chat_id": -5115402245,
+            "chat_id": -1002717347777,
             "msg": "Thaiane x Assombroso R2 C4"
         },
 
         #      correto 20h00  Grupo da senha DOBRA Flórida Paulista -1002443109385
-        {
-            "nome": "Paula", 
-            "secret_name": "SESSION_PAULA",
-            "chat_id": -5054459568,
-            "msg": "Paula x Carlos raio 3 cela 8"
-        },
+        #{
+        #    "nome": "Paula", 
+        #    "secret_name": "SESSION_PAULA",
+        #    "chat_id": -1002443109385,
+        #    "msg": "Paula x Carlos raio 3 cela 8"
+        #},
 
         #      20h30 SENHA NORMAL 🚨-1002704903786
-        {
-            "nome": "Anne", 
-            "secret_name": "SESSION_ANNE",
-            "chat_id": -5225850435,
-            "msg": "Anny x JB R2"
-        },
+        #{
+        #    "nome": "Anne", 
+        #    "secret_name": "SESSION_ANNE",
+        #    "chat_id": -1002704903786,
+        #    "msg": "Anny x JB R2"
+        #},
 
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 17
-MINUTO_ALVO = 37
+HORA_ALVO = 19
+MINUTO_ALVO = 00
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
@@ -110,7 +110,7 @@ async def sniper_individual(conta, alvo):
                 tentativa += 1
                 # Dorme APENAS 0.05s (50ms). Antes era 0.2s (200ms).
                 # Isso faz ele tentar 4x mais rápido.
-                await asyncio.sleep(0.025) 
+                await asyncio.sleep(0.020) 
                 
             except FloodWaitError as e:
                 print(f"🛑 {conta['nome']} FloodWait: {e.seconds}s (Esperando...)")
