@@ -15,13 +15,7 @@ CONTAS = [
 
 
 
-        #      correto 20h00  Grupo da senha DOBRA Flórida Paulista -1002443109385
-        {
-            "nome": "Paula", 
-            "secret_name": "SESSION_PAULA",
-            "chat_id": -1002443109385,
-            "msg": "Paula x Carlos raio 3 cela 8"
-        },
+
 
         #      20h30 SENHA NORMAL 🚨-1002704903786
         #{
@@ -31,11 +25,20 @@ CONTAS = [
         #    "msg": "Anny x JB R2"
         #},
 
+
+                #      SENHA PREF 🚨-1003049291964
+        {
+            "nome": "Adrielli", 
+            "secret_name": "SESSION_ADRIELLI",
+            "chat_id": -5176706740,
+            "msg": "Adrielli x Carlos r1"
+        },
+
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 20
-MINUTO_ALVO = 00
+MINUTO_ALVO = 10
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
