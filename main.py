@@ -15,19 +15,19 @@ CONTAS = [
 
 
 
-                #  20h45    SENHA PREF 🚨-1003049291964
+                #  20h30
         {
-            "nome": "Adrielli", 
-            "secret_name": "SESSION_ADRIELLI",
-            "chat_id": -1003049291964,
-            "msg": "Adrielli x Carlos r1"
+            "nome": "Sara", 
+            "secret_name": "SESSION_SARA",
+            "chat_id": -5215567369,
+            "msg": "Sara esposa demorisval raio 1 cela 27 longa distância"
         },
 
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 20
-MINUTO_ALVO = 45
+HORA_ALVO = 19
+MINUTO_ALVO = 44
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
