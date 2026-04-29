@@ -16,12 +16,12 @@ CONTAS = [
 
 
 
-    #  20h45 SENHA PREF 🚨 -1003049291964
+    #  Senha normal impar vila independência -1003533574600
     {
-        "nome": "Steffani", 
-        "secret_name": "SESSION_STEFFANI",
-        "chat_id": -1003049291964,
-        "msg": "Steffani/Gigante R3 "
+        "nome": "Thaina", 
+        "secret_name": "SESSION_THAINA",
+        "chat_id": -5188593476,
+        "msg": "Thayná R5 x C7 Marcos"
     },
 
 ]
@@ -95,7 +95,7 @@ async def sniper_individual(conta, alvo):
                 tentativa += 1
                 # Dorme APENAS 0.05s (50ms). Antes era 0.2s (200ms).
                 # Isso faz ele tentar 4x mais rápido.
-                await asyncio.sleep(0.005) 
+                await asyncio.sleep(0.010) 
                 
             except FloodWaitError as e:
                 print(f"🛑 {conta['nome']} FloodWait: {e.seconds}s (Esperando...)")
