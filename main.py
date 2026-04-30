@@ -16,19 +16,19 @@ CONTAS = [
 
 
 
-    #  Senha normal impar vila independência -1003533574600
+    #  19h30  Senha normal impar vila independência -1003533574600
     {
         "nome": "Thaina", 
         "secret_name": "SESSION_THAINA",
-        "chat_id": -5188593476,
+        "chat_id": -1003533574600,
         "msg": "Thayná R5 x C7 Marcos"
     },
 
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 18
-MINUTO_ALVO = 28
+HORA_ALVO = 19
+MINUTO_ALVO = 30
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
