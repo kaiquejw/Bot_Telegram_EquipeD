@@ -12,18 +12,33 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 # --- LISTA DE ATIRADORES (EXÉRCITO) ---
 # ⚠️ MUDANÇA 1: JAQUELINE EM PRIMEIRO (PRIORIDADE MÁXIMA) ⚠️
 CONTAS = [
-     
 
 
-
-    #  19h30  Senha normal impar vila independência -1003533574600
+    #   19h00  GRUPO DA SENHA NORMAL- DOBRA P3 LAVINIA -1002717347777
     {
-        "nome": "Thaina", 
-        "secret_name": "SESSION_THAINA",
-        "chat_id": -1003533574600,
-        "msg": "Thayná R5 x C7 Marcos"
+        "nome": "Thaiane", 
+        "secret_name": "SESSION_THAIANE",
+        "chat_id": -5115402245,
+        "msg": "Thaiane x Assombroso R2 C4"
     },
 
+
+     #  20h30 SENHA NORMAL 🚨 -1002704903786
+    {
+        "nome": "Luciana", 
+        "secret_name": "SESSION_LUCIANA",
+        "chat_id": -5263208911,
+        "msg": "Luciana x Primavera R2"
+    },
+
+
+     #  20h45 SENHA PREF 🚨 -1003049291964
+    {
+        "nome": "Anne", 
+        "secret_name": "SESSION_ANNE",
+        "chat_id": -5225850435,
+        "msg": "Anny x JB R2"
+    },
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
