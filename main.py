@@ -14,18 +14,34 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 CONTAS = [
 
 
-        # 20h30 SENHA NORMAL 🚨 -1002704903786
+        # DOBRA 19:00 🟣 -1002742703600
     {
         "nome": "Vanessa", 
-        "secret_name": "SESSION_VANESSA",
-        "chat_id": -1002704903786,
-        "msg": "Let R 3 Tony"
+        "secret_name": "SESSION_VANESSSA",
+        "chat_id": -5134056015,
+        "msg": "Vanessa X narizinho r4"
+    }, 
+
+        # 20h00 Grupo de senha CPP Pacaembu -1002394231597
+    {
+        "nome": "Beatriz", 
+        "secret_name": "SESSION_BEATRIZ",
+        "chat_id": -5197451138,
+        "msg": "Beatriz X Amarok 3B (dobra)"
     },
+
+        # 20h30 SENHA NORMAL 🚨 -1002704903786
+    {
+        "nome": "Nathalia", 
+        "secret_name": "SESSION_NATALIA",
+        "chat_id": -5187073706,
+        "msg": "Nathalia gordão raio 2"
+    },  
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 20
-MINUTO_ALVO = 30
+HORA_ALVO = 11
+MINUTO_ALVO = 36
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
@@ -73,7 +89,7 @@ async def sniper_individual(conta, alvo):
             # ⚠️ MUDANÇA 2: ESPERA INTELIGENTE ⚠️
             # Se faltar mais de 2 segundos, dorme um pouco.
             # Isso evita que o robô tome FloodWait por tentar cedo demais.
-            if diferenca > 0.1:
+            if diferenca > 0.0:
                 await asyncio.sleep(0.01)
                 continue
 
@@ -110,7 +126,7 @@ async def sniper_individual(conta, alvo):
 
 async def main():
     agora = datetime.datetime.now()
-    alvo = agora.replace(hour=HORA_ALVO, minute=MINUTO_ALVO, second=1, microsecond=0)
+    alvo = agora.replace(hour=HORA_ALVO, minute=MINUTO_ALVO, second=0, microsecond=0)
     
     print(f"🔥 INICIANDO MODO TURBO ({len(CONTAS)} contas)")
     print(f"🎯 Alvo: {alvo.strftime('%H:%M:%S')}")
