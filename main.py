@@ -14,19 +14,19 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 CONTAS = [
 
 
-        # 20h00 SENHA NORMAL PV 1 ao 8 -1003792609309
+        # 19h30 Senha normal impar vila independência -1003533574600
     {
-        "nome": "Ana", 
-        "secret_name": "SESSION_ANA",
-        "chat_id": -1003792609309,
-        "msg": "Ana/Eduardo pv6"
+        "nome": "Thayna", 
+        "secret_name": "SESSION_THAYNA",
+        "chat_id": -5188593476,
+        "msg": "Thayna R5 X C7 Marcos"
     },
 
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 20
-MINUTO_ALVO = 00
+HORA_ALVO = 18
+MINUTO_ALVO = 50
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
@@ -93,7 +93,7 @@ async def sniper_individual(conta, alvo):
                 tentativa += 1
                 # Dorme APENAS 0.05s (50ms). Antes era 0.2s (200ms).
                 # Isso faz ele tentar 4x mais rápido.
-                await asyncio.sleep(0.020) 
+                await asyncio.sleep(0.010) 
                 
             except FloodWaitError as e:
                 print(f"🛑 {conta['nome']} FloodWait: {e.seconds}s (Esperando...)")
