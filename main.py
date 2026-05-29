@@ -23,12 +23,12 @@ CONTAS = [
     },
 
         # 20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Thaina", 
-        "secret_name": "SESSION_THAINA",
-        "chat_id": -1002443109385,
-        "msg": "Thaina X Daniel R2"
-    },
+    #{
+    #    "nome": "Thaina", 
+    #    "secret_name": "SESSION_THAINA",
+    #    "chat_id": -1002443109385,
+    #    "msg": "Thaina X Daniel R2"
+    #},
 
 ]
 
