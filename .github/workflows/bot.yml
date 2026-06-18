@@ -34,8 +34,7 @@ jobs:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          SESSION_JENNIFER: ${{ secrets.SESSION_JENNIFER }}
-          SESSION_ANNE: ${{ secrets.SESSION_ANNE }}
+          SESSION_THAYNA: ${{ secrets.SESSION_THAYNA }}
           
         run: |
           # Define fuso horário de SP para o Python saber a hora certa
