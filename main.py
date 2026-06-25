@@ -13,19 +13,27 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 # ⚠️ MUDANÇA 1: JAQUELINE EM PRIMEIRO (PRIORIDADE MÁXIMA) ⚠️
 CONTAS = [
 
-        #  20h45 Senha Grupo Preferencial -1003552682244
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    {
+        "nome": "Larissa",
+        "secret_name": "SESSION_LARISSA",
+        "chat_id": -5216542458,
+        "msg": "Larissa x Lucas Raio 2"
+    },
+
+        #  21h00 Senha Grupo Bate Volta -1003993735474
     {
         "nome": "Katia",
         "secret_name": "SESSION_KATIA",
-        "chat_id": -1003552682244,
+        "chat_id": -5117474448,
         "msg": "Katia pantanal r2 laudo"
     },
 
 ]
 
 # ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 20
-MINUTO_ALVO = 45
+HORA_ALVO = 16
+MINUTO_ALVO = 46
 
 async def sniper_individual(conta, alvo):
     """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
@@ -73,7 +81,7 @@ async def sniper_individual(conta, alvo):
             # ⚠️ MUDANÇA 2: ESPERA INTELIGENTE ⚠️
             # Se faltar mais de 2 segundos, dorme um pouco.
             # Isso evita que o robô tome FloodWait por tentar cedo demais.
-            if diferenca > 0.0:
+            if diferenca > 0.1:
                 await asyncio.sleep(0.01)
                 continue
 
