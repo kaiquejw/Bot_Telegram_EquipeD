@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 17
-MINUTO_ALVO = 27
+HORA_ALVO = 18
+MINUTO_ALVO = 6
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,61 +33,69 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  19h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
+        
     {
-        "nome": "Jenniffer",
-        "secret_name": "SESSION_JENNIFER",
-        "chat_id": -5093907746,
-        "msg": "Jennifer x Wanderson 5x8"
+        "nome": "kaique",
+        "secret_name": "SESSION_KAIQUE",
+        "chat_id": -5186073583,
+        "msg": "testeeee"
     },
+
+        #  19h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
+    #{
+    #    "nome": "Jenniffer",
+    #    "secret_name": "SESSION_JENNIFER",
+    #    "chat_id": -1003625815869,
+    #    "msg": "Jennifer x Wanderson 5x8"
+    #},
 
         #  19h30 GRUPO BATE E VOLTA -1004296323847
-    {
-        "nome": "Paola",
-        "secret_name": "SESSION_PAOLA",
-        "chat_id": -5516360409,
-        "msg": "Paola mulher Matheus raio 4 cela 5 bate domingo"
-    },
+    #{
+    #    "nome": "Paola",
+    #    "secret_name": "SESSION_PAOLA",
+    #    "chat_id": -1004296323847,
+    #    "msg": "Paola mulher Matheus raio 4 cela 5 bate domingo"
+    #},
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Beatriz",
-        "secret_name": "SESSION_BEATRIZ",
-        "chat_id": -5385623346,
-        "msg": "Beatriz x Riquelmy R7"
-    },
+    #{
+    #    "nome": "Beatriz",
+    #    "secret_name": "SESSION_BEATRIZ",
+    #    "chat_id": -1002443109385,
+    #    "msg": "Beatriz x Riquelmy R7"
+    #},
 
         #  20h00 Grupo senha normal -1003601357589
-    {
-        "nome": "Yasmin",
-        "secret_name": "SESSION_YASMIN",
-        "chat_id": -5428136118,
-        "msg": "Tereza x Pedro RAIO 6"
-    },
+    #{
+    #    "nome": "Yasmin",
+    #    "secret_name": "SESSION_YASMIN",
+    #    "chat_id": -1003601357589,
+    #    "msg": "Tereza x Pedro RAIO 6"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Luciana",
-        "secret_name": "SESSION_LUCIANA",
-        "chat_id": -5263208911,
-        "msg": "Luciana x Primavera R2"
-    },
+    #{
+    #    "nome": "Luciana",
+    #    "secret_name": "SESSION_LUCIANA",
+    #    "chat_id": -1003927816412,
+    #    "msg": "Luciana x Primavera R2"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Priscila",
-        "secret_name": "SESSION_PRISCILA",
-        "chat_id": -5405596646,
-        "msg": "Priscila x Andre raio 4"
-    },
+    #{
+    #    "nome": "Priscila",
+    #    "secret_name": "SESSION_PRISCILA",
+    #    "chat_id": -1003927816412,
+    #    "msg": "Priscila x Andre raio 4"
+    #},
 
         #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    {
-        "nome": "Larissa",
-        "secret_name": "SESSION_LARISSA",
-        "chat_id": -5216542458,
-        "msg": "Larissa x Lucas Raio 7"
-    },
+    #{
+    #    "nome": "Larissa",
+    #    "secret_name": "SESSION_LARISSA",
+    #    "chat_id": -1002459968766,
+    #    "msg": "Larissa x Lucas Raio 7"
+    #},
 
 ]
 
