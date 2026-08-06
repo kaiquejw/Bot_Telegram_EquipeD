@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 19
-MINUTO_ALVO = 0
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,21 +33,13 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  19h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
-    {
-        "nome": "Jenniffer",
-        "secret_name": "SESSION_JENNIFER",
-        "chat_id": -1003625815869,
-        "msg": "Jennifer x Wanderson 5x8"
-    },
-
         #  19h30 GRUPO BATE E VOLTA -1004296323847
-    #{
-    #    "nome": "Paola",
-    #    "secret_name": "SESSION_PAOLA",
-    #    "chat_id": -1004296323847,
-    #    "msg": "Paola mulher Matheus raio 4 cela 5 bate domingo"
-    #},
+    {
+        "nome": "Paola",
+        "secret_name": "SESSION_PAOLA",
+        "chat_id": -1004296323847,
+        "msg": "Paola mulher Matheus raio 4 cela 5 bate domingo"
+    },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     #{
