@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 0
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -34,45 +34,31 @@ DESISTIR_APOS_S = 120
 CONTAS = [
 
 
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Beatriz",
-        "secret_name": "SESSION_BEATRIZ",
-        "chat_id": -1002443109385,
-        "msg": "Beatriz x Riquelmy R7"
-    },
 
-        #  20h00 Grupo senha normal -1003601357589
+
+        #  20h30 Senha Grupo Normal -1003927816412
     {
-        "nome": "Yasmin",
-        "secret_name": "SESSION_YASMIN",
-        "chat_id": -1003601357589,
-        "msg": "Tereza x Pedro RAIO 6"
+        "nome": "Luciana",
+        "secret_name": "SESSION_LUCIANA",
+        "chat_id": -1003927816412,
+        "msg": "Luciana x Primavera R2"
     },
 
         #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Luciana",
-    #    "secret_name": "SESSION_LUCIANA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Luciana x Primavera R2"
-    #},
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Priscila",
-    #    "secret_name": "SESSION_PRISCILA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Priscila x Andre raio 4"
-    #},
+    {
+        "nome": "Priscila",
+        "secret_name": "SESSION_PRISCILA",
+        "chat_id": -1003927816412,
+        "msg": "Priscila x Andre raio 4"
+    },
 
         #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    #{
-    #    "nome": "Larissa",
-    #    "secret_name": "SESSION_LARISSA",
-    #    "chat_id": -1002459968766,
-    #    "msg": "Larissa x Lucas Raio 7"
-    #},
+    {
+        "nome": "Larissa",
+        "secret_name": "SESSION_LARISSA",
+        "chat_id": -1002459968766,
+        "msg": "Larissa x Lucas Raio 7"
+    },
 
 ]
 
