@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 20
-MINUTO_ALVO = 30
+HORA_ALVO = 15
+MINUTO_ALVO = 40
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,31 +33,68 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-
-
-
-        #  20h30 Senha Grupo Normal -1003927816412
+        #  19h00 GRUPO PREFERENCIAL -1004338088999
     {
-        "nome": "Luciana",
-        "secret_name": "SESSION_LUCIANA",
-        "chat_id": -1003927816412,
-        "msg": "Luciana x Primavera R2"
+        "nome": "Paola",
+        "secret_name": "SESSION_PAOLA",
+        "chat_id": -5516360409,
+        "msg": "Paola mulher Matheus raio 4 cela 5 criança"
+    },
+
+        #  19h00 Senha Normal (Dobra) 19:00 HS -100441725253
+    {
+        "nome": "Isa",
+        "secret_name": "SESSION_ISA",
+        "chat_id": -5174570129,
+        "msg": "Isa/ NK R3"
+    },
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    {
+        "nome": "Thaina",
+        "secret_name": "SESSION_THAINA",
+        "chat_id": -1004431335449,
+        "msg": "Thaina X Daniel R2"
+    },
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    {
+        "nome": "Karine",
+        "secret_name": "SESSION_KARINE",
+        "chat_id": -5503988902,
+        "msg": "Karine / Raridade R 8"
+    },
+
+        #  20h00 Grupo senha normal -1003601357589
+    {
+        "nome": "Nina",
+        "secret_name": "SESSION_NINA",
+        "chat_id": -5481984051,
+        "msg": "Nina x Dg R6"
     },
 
         #  20h30 Senha Grupo Normal -1003927816412
     {
         "nome": "Priscila",
         "secret_name": "SESSION_PRISCILA",
-        "chat_id": -1003927816412,
+        "chat_id": -5405596646,
         "msg": "Priscila x Andre raio 4"
     },
 
-        #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
+        #  20h30 Senha Grupo Normal -1003927816412
     {
-        "nome": "Larissa",
-        "secret_name": "SESSION_LARISSA",
-        "chat_id": -1002459968766,
-        "msg": "Larissa x Lucas Raio 7"
+        "nome": "Viviane",
+        "secret_name": "SESSION_VIVIANE",
+        "chat_id": -5107863814,
+        "msg": "Viviane/coelho raio 3"
+    },
+
+        #  20h45 Senha Grupo Preferencial -1003552682244  
+    {
+        "nome": "VivianeBatore",
+        "secret_name": "SESSION_VIVIANEBATORE",
+        "chat_id": -5201161110,
+        "msg": "Viviane x batoré raio 2"
     },
 
 ]
