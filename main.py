@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 0
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,47 +33,13 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-
-
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Thaina",
-        "secret_name": "SESSION_THAINA",
-        "chat_id": -1002443109385,
-        "msg": "Thaina X Daniel R2"
-    },
-
-        #  20h00 Grupo senha normal -1003601357589
-    {
-        "nome": "Nina",
-        "secret_name": "SESSION_NINA",
-        "chat_id": -1003601357589,
-        "msg": "Nina x Dg R6"
-    },
-
         #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Priscila",
-    #    "secret_name": "SESSION_PRISCILA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Priscila x Andre raio 4"
-    #},
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Viviane",
-    #    "secret_name": "SESSION_VIVIANE",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Viviane/coelho raio 3"
-    #},
-
-        #  20h45 Senha Grupo Preferencial -1003552682244  
-    #{
-    #    "nome": "VivianeBatore",
-    #    "secret_name": "SESSION_VIVIANEBATORE",
-    #    "chat_id": -1003552682244,
-    #    "msg": "Viviane x batoré raio 2"
-    #},
+    {
+        "nome": "Viviane",
+        "secret_name": "SESSION_VIVIANE",
+        "chat_id": -1003927816412,
+        "msg": "Viviane/coelho raio 3"
+    },
 
         #  20h45 Senha Grupo Preferencial -1003552682244  
     #{
