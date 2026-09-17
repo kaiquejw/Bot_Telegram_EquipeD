@@ -1,31 +1,29 @@
 import asyncio
-import os
+
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
-# Lê tudo de variável de ambiente — NADA de segredo escrito no arquivo.
-# Uso:  SESSION="sua_session" python pegar_id.py
-API_ID = int(os.environ['TELEGRAM_API_ID'])
-API_HASH = os.environ['TELEGRAM_API_HASH']
-SESSION = os.environ['SESSION']
+# --- PREENCHA SEUS DADOS AQUI ---
+API_ID = 31891041  # Seu API ID
+API_HASH = "df20f87a534f0a73f437cb33985d1c95"
+SESSION = "1AZWarzMBu5idqFEeMs4lmubtj2ohfVL6znmYxmgCIzgNtqyngFEIWZM9eR1SamZYAhobmoIBULJ29uA6vyU2PTG1ab2efCxUSR4qH7R2s6YRKiRcASZoOP4NBTgTyeqaPbBgaHE0O_SN6ER3sR7-Ojl9iPhdDOEekkegQIc-rJiuMyVNr0fS8foIkyymG8eNVMnwuZvcnmhMNSrEu-DYANwzQ8uLp95OTzc_aF2cUbG7-oNuTqjzb3NUigzqzn1dWmTACJC1C_CqAywOWbgArdTZQRPMi4ynattaeaVqfK3GQbm-HaMsA7aP8ssie5pZiiQ0HGnsbIfa4Z-_DEwfCxFp0ifScOs="
 
 
 async def main():
+    print("Conectando...")
     client = TelegramClient(StringSession(SESSION), API_ID, API_HASH)
     await client.connect()
 
-    me = await client.get_me()
-    print(f"\n✅ Conta: {me.first_name} {me.last_name or ''}".strip())
-    print(f"📱 +{me.phone}  |  DC {client.session.dc_id}")
-    print("-" * 55)
-    print(f"{'GRUPO':<32} | ID")
-    print("-" * 55)
-    async for d in client.iter_dialogs(limit=20):
-        print(f"{d.name:<32} | {d.id}")
-    print()
+    print("\n👇 AQUI ESTÃO SEUS ÚLTIMOS GRUPOS/CONVERSAS 👇\n")
+    print(f"{'NOME DO GRUPO':<30} | {'ID PARA O GITHUB'}")
+    print("-" * 50)
 
-    await client.disconnect()
+    # Pega as últimas 15 conversas
+    async for dialog in client.iter_dialogs(limit=15):
+        print(f"{dialog.name:<30} | {dialog.id}")
+
+    print("\n👆 Copie o ID (número negativo) do grupo 'Teste' e coloque no GitHub.\n")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     asyncio.run(main())
