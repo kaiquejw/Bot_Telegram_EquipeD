@@ -21,8 +21,8 @@ API_HASH = os.environ.get("TELEGRAM_API_HASH")
 TZ = ZoneInfo("America/Sao_Paulo")
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 14
-MINUTO_ALVO = 15
+HORA_ALVO = 16
+MINUTO_ALVO = 50
 SEGUNDO_ALVO = 0
 
 # Quando o listener fica "armado" antes do horário (pra pegar abertura adiantada).
@@ -39,9 +39,17 @@ CONTAS = [
 
         #  19h00 P3 Anexo Normal -1002912888763
     {
+        "nome": "Jeniffer",
+        "secret_name": "SESSION_JENIFFER",
+        "chat_id": -5465700468,   
+        "msg": "Jeniffer x Richard 3x5 \n Crislaine x Richard 3x5",
+    },
+
+        #  19h00 P3 Anexo Normal -1002912888763
+    {
         "nome": "Giovana",
         "secret_name": "SESSION_GIOVANA",
-        "chat_id": -5299568827,   
+        "chat_id": -1004297939409,   
         "msg": "Bruna x João Victor 4x2 \n  Giovana x João Victor 4x2",
     },
 
@@ -49,7 +57,7 @@ CONTAS = [
     {
         "nome": "Lais",
         "secret_name": "SESSION_LAIS",
-        "chat_id": -5216759738,
+        "chat_id": -1004317445342,
         "msg": "Laís x jogador ala 1 a dobra",
     },
 
@@ -65,7 +73,7 @@ CONTAS = [
     {
         "nome": "Tamires",
         "secret_name": "SESSION_TAMIRES",
-        "chat_id": -5391035776,
+        "chat_id": -1004367518439,
         "msg": "Tamires x Rodrigo R 3 (gestante)",
     },
 ]
